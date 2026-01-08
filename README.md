@@ -1,7 +1,7 @@
 # sales-dashboard-regional-performance
 
 ## 📌 Project Overview
-This project analyzes sales performance across regions, product categories, and discount levels using SQL and Power BI.  
+This project analyzes sales performance across regions,shipping mode and discount levels using SQL and Power BI.  
 The goal is to help business stakeholders understand revenue trends, profitability, and the impact of discounting strategies.
 
 ---
@@ -15,7 +15,7 @@ The goal is to help business stakeholders understand revenue trends, profitabili
 
 ## 📂 Dataset
 - SampleSuperstore dataset from kaggle
-- Contains sales, profit, discount, region, category, and shipping details
+- Contains sales, profit, discount, region and shipping details
 
 ---
 
