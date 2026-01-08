@@ -1,4 +1,4 @@
-Regional Sales Performance (CORE KPI)
+Regional Sales Performance (CORE KPI)--
 SELECT 
     region,
     ROUND(SUM(sales), 2) AS total_sales,
@@ -8,7 +8,7 @@ FROM sales_orders
 GROUP BY region
 ORDER BY total_sales DESC;
 
-Discount Impact Analysis
+Discount Impact Analysis--
 SELECT 
     discount,
     ROUND(SUM(sales), 2) AS total_sales,
@@ -17,7 +17,7 @@ FROM sales_orders
 GROUP BY discount
 ORDER BY discount;
 
-Shipping Mode Performance
+Shipping Mode Performance--
 SELECT 
     ship_mode,
     ROUND(SUM(sales), 2) AS total_sales,
@@ -26,7 +26,7 @@ FROM sales_orders
 GROUP BY ship_mode
 ORDER BY total_sales DESC;
 
-Overall Business KPIs (EXECUTIVE VIEW)
+Overall Business KPIs (EXECUTIVE VIEW)--
 SELECT
     ROUND(SUM(sales), 2) AS total_sales,
     ROUND(SUM(profit), 2) AS total_profit,
