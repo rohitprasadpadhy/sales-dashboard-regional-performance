@@ -1,3 +1,21 @@
+CREATE TABLE sales_orders (
+    order_id INT AUTO_INCREMENT PRIMARY KEY,
+    region VARCHAR(50),
+    sales DECIMAL(10,2),
+    quantity INT,
+    discount DECIMAL(5,2),
+    profit DECIMAL(10,2),
+    ship_mode VARCHAR(50)
+);
+
+CREATE TABLE location (
+    location_id INT AUTO_INCREMENT PRIMARY KEY,
+    country VARCHAR(50),
+    state VARCHAR(50),
+    city VARCHAR(50),
+    region VARCHAR(50)
+);
+
 Regional Sales Performance (CORE KPI)--
 SELECT 
     region,
